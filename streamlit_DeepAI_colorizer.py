@@ -33,4 +33,4 @@ if uploaded_file is not None:
     colorized_image = Image.open(requests.get(r.json()['output_url'], stream=True).raw)
 
     # Show image
-    st.image(colorized_image, caption='Colorized Image.', use_column_width=True)
+    st.image(colorized_image, caption='Colorized Image. Source: DeepAI - Jason Antic', use_column_width=True)
